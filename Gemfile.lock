@@ -1,0 +1,29 @@
+GIT
+  remote: git://github.com/clayallsopp/maglev.git
+  revision: 4ff0803d645a9cd8a958f6a608cef1048a55375f
+  specs:
+    maglev (0.0.1)
+      bubble-wrap (~> 1.3.0)
+      motion-require (~> 0.0.6)
+      motion_support
+
+GIT
+  remote: git://github.com/clearsightstudio/ProMotion.git
+  revision: e17f808cd9cdf5df446d45856c0edf139a96cf5b
+  specs:
+    ProMotion (1.0.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bubble-wrap (1.3.0)
+    motion-require (0.0.7)
+    motion_support (0.0.6)
+      bubble-wrap
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ProMotion!
+  maglev!
